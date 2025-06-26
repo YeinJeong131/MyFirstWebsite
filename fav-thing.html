@@ -1,0 +1,102 @@
+<html>
+  <head>
+    <title>fav-thing</title>
+    <link rel="stylesheet" href="a2.css" />
+    <style type="text/css">
+      div div a {
+        text-decoration: none;
+        color: rgb(0, 0, 0);
+      }
+      body {
+        align-items: flex-start;
+        justify-content: center;
+      }
+      caption {
+        margin-bottom: 2vh;
+      }
+      ul li {
+        font-size: large;
+      }
+      .subsubheading {
+        font-size: larger;
+      }
+      @media (max-width: 768px) {
+        h1 {
+          font-size: 3.5vw;
+          text-align: left;
+        }
+      }
+      p {
+        margin-top: 0;
+      }
+    </style>
+  </head>
+  <body>
+    <h1 align="center" class="heading">My favorite thing</h1>
+    <div class="twobutton">
+      <div class="navbutton1">
+        <a href="mainpage.html">HOME</a>
+      </div>
+      <div class="navbutton2">
+        <a href="fav-place.html">My favorite place</a>
+      </div>
+    </div>
+
+    <table>
+      <caption border="1" style="background-color: rgb(255, 204, 221)">
+        <h2>My dog, Siru</h2>
+      </caption>
+
+      <thead>
+        <tr>
+          <th colspan="2">Photos of my dog</th>
+          <th colspan="1">About my dog & why I love him</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr>
+          <td>
+            <img src="dog1image.jpg" height="400vh" width="auto" />
+          </td>
+          <td>
+            <img src="dog3image.jpg" height="400vh" width="auto" />
+          </td>
+          <td rowspan="2" style="vertical-align: top">
+            <ul>
+              <li>
+                <b class="subsubheading">My dog information</b>
+                <ul>
+                  <li>Birthday:</li>
+                  <li>Weight: 5kg</li>
+                  <li>Breed: Maltipoo (Maltese + Poodle)</li>
+                  <li>Favorite things: my socks</li>
+                  <li>
+                    Hate things: Taking somethings out of his mouth (e.g. toys,
+                    treats)
+                  </li>
+                </ul>
+              </li>
+              <li>
+                <b class="subsubheading">Why I love him</b>
+                <p>
+                  I love my dog because I love his fluffy fur when I hug him.
+                  Also, I felt he is part of the reason why I do hard work since
+                  I want to live in a good house that has a garden with my dog.
+                  He is a good friend and family to me.
+                </p>
+              </li>
+            </ul>
+          </td>
+        </tr>
+        <tr>
+          <td>
+            <img src="dog4image.jpg" height="400vh" width="auto" />
+          </td>
+          <td>
+            <img src="dog2image.jpg" height="400vh" width="auto" />
+          </td>
+        </tr>
+      </tbody>
+    </table>
+  </body>
+</html>

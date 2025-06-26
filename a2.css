@@ -1,0 +1,150 @@
+h1.heading {
+  background-color: rgb(252, 171, 198);
+  width: 100%;
+  height: 6.5vh;
+  margin: 0%;
+  top: 0%;
+  left: 0%;
+  padding: 2.8vh;
+  position: fixed;
+  z-index: 2;
+}
+
+body {
+  display: flex;
+  justify-content: space-evenly;
+  flex-wrap: wrap;
+  height: 120vh;
+  margin-left: 0vh;
+  margin-right: 0vh;
+}
+
+section.subheading {
+  background-color: rgb(255, 204, 221);
+  height: 6vh;
+  margin-top: 14vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-left: 0vh;
+  margin-right: 0vh;
+  position: relative;
+  z-index: 1;
+  font-weight: bold;
+  font-size: larger;
+  margin-bottom: 90vh;
+}
+
+div#div1 {
+  position: absolute;
+  background-color: rgb(255, 223, 233);
+  height: 75vh;
+  width: 48.15%;
+  top: 8vh;
+  left: 0vh;
+  overflow: hidden;
+  overflow: auto;
+}
+div#div2 {
+  position: absolute;
+  background-color: rgb(255, 223, 233);
+  height: 75vh;
+  width: 50.37%;
+  top: 8vh;
+  right: 0vh;
+  overflow: hidden;
+  overflow: auto;
+}
+div#div3 {
+  position: absolute;
+  background-color: rgb(255, 223, 233);
+  height: 75vh;
+  width: 100%;
+  top: 8vh;
+  right: 0vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: center;
+}
+
+#myimg {
+  position: relative;
+  top: 2vh;
+  left: 2vh;
+}
+
+.spacing {
+  margin-bottom: 3vh;
+}
+
+div p em {
+  position: relative;
+  font-size: smaller;
+}
+section div div {
+  position: relative;
+}
+
+.imgbutton a:hover {
+  filter: blur(2px);
+}
+
+.navbutton1 {
+  position: fixed;
+  z-index: 3;
+  width: 20vh;
+  height: 4vh;
+  background-color: rgb(255, 191, 212);
+  border-radius: 10px;
+  padding: 2px;
+  text-align: center;
+  justify-content: center;
+  right: 4vh;
+  top: 1vh;
+  margin-bottom: 5vh;
+  cursor: pointer;
+  border: 0.3vh rgb(233, 100, 144) solid;
+  display: flex;
+}
+.navbutton2 {
+  position: fixed;
+  z-index: 3;
+  width: 20vh;
+  height: 4vh;
+  background-color: rgb(255, 191, 212);
+  border-radius: 10px;
+  padding: 2px;
+  text-align: center;
+  justify-content: center;
+  right: 4vh;
+  top: 6.5vh;
+  margin-bottom: 5vh;
+  cursor: pointer;
+  border: 0.3vh rgb(233, 100, 144) solid;
+  display: flex;
+}
+.twobutton {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-between;
+  font-weight: bold;
+}
+.navbutton1:hover {
+  background-color: rgb(255, 41, 112);
+}
+.navbutton2:hover {
+  background-color: rgb(255, 41, 112);
+}
+table {
+  margin-top: 14vh;
+  border-collapse: collapse;
+  background-color: rgb(255, 230, 239);
+}
+
+th,
+td {
+  border: 2px solid rgb(247, 199, 217);
+}
+ 
